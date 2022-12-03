@@ -1,0 +1,168 @@
+body {
+    margin: 25px auto;
+    border: 1px solid black;
+    padding: 50px;
+    max-width: 800px;
+}
+
+/* ******************************************************* */
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+    border: 14px double #ecebe3;
+}
+
+header div {
+    text-align: center;
+}
+
+header h2 {
+    font-weight: normal;
+}
+
+header p {
+    font-weight: bold; 
+    font-size: 1.1rem;
+}
+
+/* ******************************************************** */
+/* SECTION 1 */
+#section-1 {
+    display: flex;
+    align-items: center;
+}
+
+#section-1 p {
+    flex:1.5;
+    border: 3px solid #ecebe3;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact {
+    flex:1;
+    border: 3px solid #ecebe3;
+    margin: 20px;
+    padding: 13px 25px 8px 25px;
+    border-radius: 10px;
+}
+
+.contact-information {
+    margin-bottom: 5px;
+}
+
+.contact-information i {
+    margin-right: 7px;
+}
+
+.address {
+    display: flex;
+}
+
+/* ***************************************************** */
+/* SECTION 3 et 4*/
+
+.inside-li {
+    display: flex;
+}
+
+.date {
+    width: 25%;
+}
+
+.text {
+    width: 60%;
+}
+
+/* **************************************************** */
+/* MEDIA QUERIES */
+@media screen and (max-width: 370px) {
+    .contact {
+        margin-right:7px;
+        margin-left:7px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #section-1 p {
+        width: 100%;
+        margin-right:0px;
+        margin-left:0px;
+    }
+
+    .contact {
+        padding: 8px 10px 5px 10px;
+    }
+
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        padding-inline-start: 0px;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:649px) {
+    .contact-information i {
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img {
+        margin: auto;
+    }
+
+    #section-1 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2, h3 {
+        text-align: center;
+    }
+
+    .inside-li {
+        flex-direction: column;
+    }
+
+    .date {
+        width: auto;
+    }
+
+    .text {
+        width: auto;
+    } 
+}
+
+@media screen and (min-width:650px) and (max-width:870px) {
+    .contact {
+        padding: 8px 10px 5px 10px;
+    }
+
+    .contact-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
