@@ -85,7 +85,7 @@ header p {
 }
 
 .date {
-    width: 25%;
+    width: 31%;
 }
 
 .text {
@@ -157,12 +157,6 @@ header p {
     .text {
         width: auto;
     } 
-}
-
-@media screen and (min-width: 768px) and (max-width:875px) {
-    .date {
-        width: 31%;
-    }
 }
 
 @media screen and (min-width:650px) and (max-width:870px) {
