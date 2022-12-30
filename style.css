@@ -5,6 +5,10 @@ body {
     max-width: 800px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* ******************************************************* */
 /* HEADER */
 header {
@@ -79,7 +83,11 @@ header p {
 }
 
 .text {
-    width: 60%;
+    width: 90%;
+}
+
+.portfolio {
+    font-weight: bold;
 }
 
 /* **************************************************** */
