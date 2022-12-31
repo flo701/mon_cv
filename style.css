@@ -7,7 +7,9 @@ body {
 .container {
     max-width: 800px; 
     padding: 50px;
-    background-color: #f0efef;
+    /* background-color: #f0efef; */
+    /* background-color: #e8dbd7; */
+    background-color: #eae4e2;
 }
 
 a {
