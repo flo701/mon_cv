@@ -4,12 +4,19 @@ body {
     max-width: 800px;
 }
 
+.container1{
+    max-width:900px;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: #f5f0ef;
+}
+ 
 .container {
     max-width: 800px; 
     padding: 50px;
-    /* background-color: #f0efef; */
-    /* background-color: #e8dbd7; */
-    background-color: #eae4e2;
+    /* background-color: #eae4e2; */
+    background-color: #f5f0ef;
+    border: 1px solid black;
 }
 
 a {
@@ -103,12 +110,25 @@ header p {
 /* MEDIA QUERIES */
 @media screen and (max-width: 370px) {
     .contact {
-        margin-right:7px;
-        margin-left:7px;
+        margin-right:0px;
+        margin-left:0px;
+    }
+
+    .container1{
+        padding: 15px;
+    }
+
+    .container{
+        padding: 30px;
     }
 }
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) { */
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 30px;
+    }
+
     #section-1 p {
         width: 100%;
         margin-right:0px;
@@ -127,13 +147,18 @@ header p {
     }
 }
 
-@media screen and (min-width:451px) and (max-width:649px) {
+/* @media screen and (min-width:451px) and (max-width:649px) { */
+@media screen and (max-width:649px) {
+    .container{
+        padding: 30px;
+    }
+
     .contact-information i {
         margin-right: 15px;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     header {
         display: flex;
         flex-direction: column;
@@ -159,6 +184,10 @@ header p {
     .text {
         width: auto;
     } 
+    ul {
+        margin-block-start:0px;
+        padding-inline-start:0px;
+    }
 }
 
 @media screen and (min-width:650px) and (max-width:870px) {
